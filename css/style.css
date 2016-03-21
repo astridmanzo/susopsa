@@ -1,0 +1,280 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700);
+body {
+  font-family: "Montserrat", sans-serif;
+  color: #333333;
+  background-image: url("../assets/texture.png");
+  background-repeat: repeat;
+  max-width: 1360px;
+  min-width: 350px;
+  margin: 0 auto !important;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 28px;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+h4 {
+  font-size: 16px;
+}
+
+h5 {
+  font-size: 13px;
+}
+
+h6 {
+  font-size: 12px;
+}
+
+p {
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.main-page {
+  -webkit-box-shadow: 0px 10px 14px 0px rgba(50, 50, 50, 0.26);
+  -moz-box-shadow: 0px 10px 14px 0px rgba(50, 50, 50, 0.26);
+  box-shadow: 0px 10px 14px 0px rgba(50, 50, 50, 0.26);
+}
+
+.nav-container {
+  border-top: #333333 solid 5px;
+}
+
+.navbar {
+  min-height: 120px;
+  background-image: url("../assets/texture.png");
+  background-repeat: repeat;
+}
+
+.row {
+  margin: 0;
+}
+
+.navbar-right {
+  margin-top: 8px;
+}
+
+.nav-margin {
+  margin-top: 0;
+}
+
+.nav-height {
+  height: 100px !important;
+}
+
+.navbar-info {
+  border-top: #333333 solid 5px;
+  background-color: #FFCF32;
+  height: 50px;
+  padding: 15px 0;
+}
+.navbar-info .align {
+  text-align: right;
+}
+.navbar-info span {
+  font-size: 22px;
+  color: #333333;
+  padding-right: 5px;
+}
+.navbar-info p {
+  display: inline;
+  color: #333333;
+  padding-right: 15px;
+}
+
+.navbar-brand {
+  width: 100%;
+}
+
+.logo-nav {
+  height: 100px;
+}
+
+.logo-nav img {
+  width: 250px;
+  margin-top: 20px;
+}
+
+.logo-nav p {
+  font-size: 18px;
+}
+
+.active a {
+  color: #FFCF32 !important;
+  background-color: transparent !important;
+}
+
+.main-page {
+  margin: 0 auto;
+}
+
+/* Change container width */
+@media (min-width: 768px) {
+  .container {
+    width: 100%;
+    padding: 0;
+  }
+}
+/* ---- ---- */
+/* Change container width */
+@media (max-width: 1360px) {
+  .main-page {
+    width: 100%;
+    padding: 0;
+  }
+
+  .container {
+    padding: 0;
+  }
+}
+/* ---- ---- */
+/* Change size of the logo */
+@media (max-width: 768px) {
+  iframe {
+    min-height: 90% !important;
+  }
+
+  .logo-nav {
+    text-align: center !important;
+  }
+  .logo-nav img {
+    max-width: 200px;
+  }
+  .logo-nav p {
+    font-size: 16px;
+  }
+}
+/* ---- ---- */
+@media (max-width: 550px) {
+  .navbar-info p, .navbar-info span {
+    display: none !important;
+  }
+}
+@media (max-width: 990px) {
+  .row.reorder-xs {
+    transform: rotate(180deg);
+    direction: rtl;
+  }
+
+  .row.reorder-xs > [class*="col-"] {
+    transform: rotate(-180deg);
+    direction: ltr;
+  }
+}
+@media (max-width: 1200px) {
+  .datos-mapa p {
+    font-size: 12px !important;
+  }
+}
+.servicios-title h1 {
+  text-align: center;
+  margin: 60px 0;
+}
+
+.icons-services {
+  text-align: center;
+}
+
+.icons-services img {
+  width: 50px;
+  background-color: #FFCF32;
+  border-radius: 50px;
+  padding: 10px;
+}
+
+.servicios-list {
+  text-align: left;
+  list-style-type: none;
+  padding: 0;
+}
+.servicios-list li {
+  border-bottom: 1px solid #cbcbcb;
+  margin-top: 20px;
+}
+.servicios-list li p {
+  min-height: 30px;
+  padding-top: 15px;
+}
+
+.slideshow {
+  padding: 0;
+  max-height: 500px;
+}
+
+.navbar-default {
+  margin-bottom: 0;
+}
+
+.unslider ul {
+  text-align: center;
+}
+
+.img-responsive {
+  min-height: 150px;
+  width: 100%;
+  vertical-align: top;
+}
+
+iframe {
+  text-align: center;
+}
+
+.datos-mapa {
+  margin: 20px 0;
+  text-align: center;
+  background-color: #FFCF32;
+}
+
+.location {
+  text-align: center;
+}
+
+.location span {
+  font-size: 30px;
+  color: #FFCF32;
+}
+
+.location p {
+  display: inline;
+  text-align: center;
+}
+
+.location-text {
+  margin: 50px 0;
+}
+
+.well {
+  padding: 20px;
+}
+
+footer {
+  background-color: #333333;
+  padding-top: 30px;
+  text-align: center;
+}
+
+.logo-footer {
+  padding-bottom: 30px;
+}
+.logo-footer img {
+  margin-top: -10px;
+  width: 250px;
+}
+
+.subfooter {
+  border-top: 1px solid #666;
+  padding-top: 10px;
+  color: #fff;
+}
